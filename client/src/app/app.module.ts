@@ -8,12 +8,14 @@ import { HomeComponent } from './home/home.component';
 import { CommonModule } from '@angular/common';
 import { LoginComponent } from './auth/login/login.component';
 import { IonicModule } from '@ionic/angular';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

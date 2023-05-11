@@ -12,6 +12,7 @@ export class AuthService {
   constructor(private router: Router) { }
 
   auth(un: string, pw: string): Observable<boolean> {
+    this.authorized = true;
     return of(true);
   }
 
